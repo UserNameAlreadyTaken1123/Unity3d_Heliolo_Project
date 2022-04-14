@@ -1,0 +1,24 @@
+fileFormatVersion: 2
+guid: 4b8d8dd7607984549a7d7b8e5bce4551
+timeCreated: 1516947053
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - movementScript: {instanceID: 0}
+  - animationScript: {instanceID: 0}
+  - healthBarScript: {instanceID: 0}
+  - currentAttack: {instanceID: 0}
+  - meleeWeaponTrail: {instanceID: 0}
+  - meleeWeaponTrailDistortion: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - swordSwing: {fileID: 8300000, guid: 5ec8a09ed2e847946afaafaf22f9bdab, type: 3}
+  - swordSlash: {fileID: 8300000, guid: ea717f3b14eca364694d47f0e640f9ae, type: 3}
+  - swordClash: {fileID: 8300000, guid: 9958733ca9a83d74693c4b3cefa34018, type: 3}
+  - SwordSpark: {fileID: 1769828393376964, guid: 25cf60876e1332d49817ec86b1a4b061,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

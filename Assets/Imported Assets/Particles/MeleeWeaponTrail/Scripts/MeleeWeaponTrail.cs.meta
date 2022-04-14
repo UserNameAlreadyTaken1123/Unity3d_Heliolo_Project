@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: d5ceb339997c8304e9354d4ce5ddc9da
+timeCreated: 1521332566
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Player: {instanceID: 0}
+  - _material: {fileID: 2100000, guid: 5f402d1520e5fa74fa21e08f85b71370, type: 2}
+  - _materialBlue: {fileID: 2100000, guid: 5945686e938908346a0a19b27fbd85cb, type: 2}
+  - _materialGreen: {instanceID: 0}
+  - _materialGold: {fileID: 2100000, guid: bf8a4ad66fba8af44a844b5f58cb3b25, type: 2}
+  - _materialOrange: {instanceID: 0}
+  - _materialRed: {fileID: 2100000, guid: bf8a4ad66fba8af44a844b5f58cb3b25, type: 2}
+  - _materialYellow: {instanceID: 0}
+  - _base: {instanceID: 0}
+  - _tip: {instanceID: 0}
+  - _trailObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 503d378b99723c4479114a55132cd8c0
+timeCreated: 1514354836
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Projectile: {fileID: 1678746334718356, guid: c462ab25755a98f41a43d54cc7d042eb,
+      type: 2}
+  - Level1ParticlesFX: {instanceID: 0}
+  - Level2ParticlesFX: {instanceID: 0}
+  - Level3ParticlesFX: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

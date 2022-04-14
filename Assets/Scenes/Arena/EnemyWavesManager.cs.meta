@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 3c391331a8554f943a86c5fb39ee62bb
+timeCreated: 1528610811
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - WinSound: {fileID: 8300000, guid: 64fbdb393e7fb0747a1076b78ea7fdc8, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

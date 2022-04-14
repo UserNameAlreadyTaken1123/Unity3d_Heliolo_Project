@@ -1,0 +1,113 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1000010462252232}
+  m_IsPrefabParent: 1
+--- !u!1 &1000010462252232
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4000013100902492}
+  - component: {fileID: 114000010889697654}
+  m_Layer: 0
+  m_Name: GlobalControl
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 0
+--- !u!4 &4000013100902492
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010462252232}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -1.888109, y: 40.470493, z: -50.904358}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114000010889697654
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1000010462252232}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 554f24e06cd1dd849a5556956561c25a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Player: {fileID: 0}
+  savedPlayerData:
+    Helio_SceneID: 0
+    Helio_PositionX: 0
+    Helio_PositionY: 0
+    Helio_PositionZ: 0
+    Helio_Maxhealth: 0
+    Helio_CurHealth: 0
+    Helio_MaxMana: 0
+    Helio_CurMana: 0
+    Helio_runSpeed: 0
+    Helio_sprintSpeed: 0
+    Helio_walkSpeed: 0
+    Helio_jumpBaseForce: 0
+    Helio_jumpsAmount: 0
+    Helio_airSpeed: 0
+    Duncan_SceneID: 0
+    Duncan_PositionX: 0
+    Duncan_PositionY: 0
+    Duncan_PositionZ: 0
+    Duncan_Maxhealth: 0
+    Duncan_CurHealth: 0
+    Duncan_MaxMana: 0
+    Duncan_CurMana: 0
+    Duncan_runSpeed: 0
+    Duncan_sprintSpeed: 0
+    Duncan_walkSpeed: 0
+    Duncan_jumpBaseForce: 0
+    Duncan_jumpsAmount: 0
+    Duncan_airSpeed: 0
+  LocalCopyOfData:
+    Helio_SceneID: 0
+    Helio_PositionX: 0
+    Helio_PositionY: 0
+    Helio_PositionZ: 0
+    Helio_Maxhealth: 0
+    Helio_CurHealth: 0
+    Helio_MaxMana: 0
+    Helio_CurMana: 0
+    Helio_runSpeed: 0
+    Helio_sprintSpeed: 0
+    Helio_walkSpeed: 0
+    Helio_jumpBaseForce: 0
+    Helio_jumpsAmount: 0
+    Helio_airSpeed: 0
+    Duncan_SceneID: 0
+    Duncan_PositionX: 0
+    Duncan_PositionY: 0
+    Duncan_PositionZ: 0
+    Duncan_Maxhealth: 0
+    Duncan_CurHealth: 0
+    Duncan_MaxMana: 0
+    Duncan_CurMana: 0
+    Duncan_runSpeed: 0
+    Duncan_sprintSpeed: 0
+    Duncan_walkSpeed: 0
+    Duncan_jumpBaseForce: 0
+    Duncan_jumpsAmount: 0
+    Duncan_airSpeed: 0
+  IsSceneBeingLoaded: 0

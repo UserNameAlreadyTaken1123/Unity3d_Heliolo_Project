@@ -1,0 +1,26 @@
+fileFormatVersion: 2
+guid: a59f9aa045ca1e647acf32a51b4cf510
+timeCreated: 1516862095
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rigidbody: {instanceID: 0}
+  - transform: {instanceID: 0}
+  - references: {instanceID: 0}
+  - genericAI: {instanceID: 0}
+  - animationScript: {instanceID: 0}
+  - collider: {instanceID: 0}
+  - BloodSplatObject: {fileID: 1000012909287652, guid: 77bad6e7f8bbecf4aaf02a97d5e32e36,
+      type: 2}
+  - BloodSplatObjectBullet: {fileID: 1000012909287652, guid: 41a3a8de8bb59524f99146f1a56273a4,
+      type: 2}
+  - BloodSplatReference: {instanceID: 0}
+  - SwordSpark: {instanceID: 0}
+  - playerGUI: {instanceID: 0}
+  - cameraObject: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,484 @@
+fileFormatVersion: 2
+guid: cff44a9063d3a244a8da8412115a46a0
+ModelImporter:
+  serializedVersion: 22
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Building Walls
+    100004: Cube
+    100006: Helio_Lod0-Mesh
+    100008: Roof Acess
+    100010: Roof Floor
+    100012: VentShaft
+    100014: VentShaft.001
+    100016: VentShaft.002
+    100018: VentShaft.003
+    100020: VentShaft.004
+    100022: VentShaft.005
+    100024: VentShaft.006
+    100026: VentShaft.007
+    100028: VentShaft.008
+    100030: VentShaft.009
+    100032: VentShaft.010
+    100034: VentShaft.011
+    100036: VentShaft.012
+    100038: VentShaft.013
+    100040: VentShaft.014
+    100042: VentShaft.015
+    100044: VentShaft.016
+    100046: Wall.001
+    100048: Wall.002
+    100050: Wall.003
+    100052: Wall.004
+    100054: Wall.005
+    100056: Wall.006
+    100058: Wall.007
+    100060: Wall.008
+    100062: Wall.009
+    100064: Wall.010
+    100066: Wall.011
+    100068: Wall.012
+    100070: Wall.013
+    100072: Wall.014
+    100074: Wall.015
+    100076: Wall.016
+    100078: Wall.017
+    100080: Wall.018
+    100082: Wall.019
+    100084: Wall.020
+    100086: Wall.021
+    100088: Wall.022
+    100090: Wall.023
+    100092: Wall.024
+    100094: Wall.025
+    100096: Wall.026
+    100098: Wall.027
+    100100: Wall.028
+    100102: Wall.029
+    100104: Wall.030
+    100106: Wall.031
+    100108: Wall.032
+    100110: Wall.033
+    100112: Wall.034
+    100114: Wall.035
+    400000: //RootNode
+    400002: Building Walls
+    400004: Cube
+    400006: Helio_Lod0-Mesh
+    400008: Roof Acess
+    400010: Roof Floor
+    400012: VentShaft
+    400014: VentShaft.001
+    400016: VentShaft.002
+    400018: VentShaft.003
+    400020: VentShaft.004
+    400022: VentShaft.005
+    400024: VentShaft.006
+    400026: VentShaft.007
+    400028: VentShaft.008
+    400030: VentShaft.009
+    400032: VentShaft.010
+    400034: VentShaft.011
+    400036: VentShaft.012
+    400038: VentShaft.013
+    400040: VentShaft.014
+    400042: VentShaft.015
+    400044: VentShaft.016
+    400046: Wall.001
+    400048: Wall.002
+    400050: Wall.003
+    400052: Wall.004
+    400054: Wall.005
+    400056: Wall.006
+    400058: Wall.007
+    400060: Wall.008
+    400062: Wall.009
+    400064: Wall.010
+    400066: Wall.011
+    400068: Wall.012
+    400070: Wall.013
+    400072: Wall.014
+    400074: Wall.015
+    400076: Wall.016
+    400078: Wall.017
+    400080: Wall.018
+    400082: Wall.019
+    400084: Wall.020
+    400086: Wall.021
+    400088: Wall.022
+    400090: Wall.023
+    400092: Wall.024
+    400094: Wall.025
+    400096: Wall.026
+    400098: Wall.027
+    400100: Wall.028
+    400102: Wall.029
+    400104: Wall.030
+    400106: Wall.031
+    400108: Wall.032
+    400110: Wall.033
+    400112: Wall.034
+    400114: Wall.035
+    2300000: Building Walls
+    2300002: Cube
+    2300004: Helio_Lod0-Mesh
+    2300006: Roof Acess
+    2300008: Roof Floor
+    2300010: VentShaft
+    2300012: VentShaft.001
+    2300014: VentShaft.002
+    2300016: VentShaft.003
+    2300018: VentShaft.004
+    2300020: VentShaft.005
+    2300022: VentShaft.006
+    2300024: VentShaft.007
+    2300026: VentShaft.008
+    2300028: VentShaft.009
+    2300030: VentShaft.010
+    2300032: VentShaft.011
+    2300034: VentShaft.012
+    2300036: VentShaft.013
+    2300038: VentShaft.014
+    2300040: VentShaft.015
+    2300042: VentShaft.016
+    2300044: Wall.001
+    2300046: Wall.002
+    2300048: Wall.003
+    2300050: Wall.004
+    2300052: Wall.005
+    2300054: Wall.006
+    2300056: Wall.007
+    2300058: Wall.008
+    2300060: Wall.009
+    2300062: Wall.010
+    2300064: Wall.011
+    2300066: Wall.012
+    2300068: Wall.013
+    2300070: Wall.014
+    2300072: Wall.015
+    2300074: Wall.016
+    2300076: Wall.017
+    2300078: Wall.018
+    2300080: Wall.019
+    2300082: Wall.020
+    2300084: Wall.021
+    2300086: Wall.022
+    2300088: Wall.023
+    2300090: Wall.024
+    2300092: Wall.025
+    2300094: Wall.026
+    2300096: Wall.027
+    2300098: Wall.028
+    2300100: Wall.029
+    2300102: Wall.030
+    2300104: Wall.031
+    2300106: Wall.032
+    2300108: Wall.033
+    2300110: Wall.034
+    2300112: Wall.035
+    3300000: Building Walls
+    3300002: Cube
+    3300004: Helio_Lod0-Mesh
+    3300006: Roof Acess
+    3300008: Roof Floor
+    3300010: VentShaft
+    3300012: VentShaft.001
+    3300014: VentShaft.002
+    3300016: VentShaft.003
+    3300018: VentShaft.004
+    3300020: VentShaft.005
+    3300022: VentShaft.006
+    3300024: VentShaft.007
+    3300026: VentShaft.008
+    3300028: VentShaft.009
+    3300030: VentShaft.010
+    3300032: VentShaft.011
+    3300034: VentShaft.012
+    3300036: VentShaft.013
+    3300038: VentShaft.014
+    3300040: VentShaft.015
+    3300042: VentShaft.016
+    3300044: Wall.001
+    3300046: Wall.002
+    3300048: Wall.003
+    3300050: Wall.004
+    3300052: Wall.005
+    3300054: Wall.006
+    3300056: Wall.007
+    3300058: Wall.008
+    3300060: Wall.009
+    3300062: Wall.010
+    3300064: Wall.011
+    3300066: Wall.012
+    3300068: Wall.013
+    3300070: Wall.014
+    3300072: Wall.015
+    3300074: Wall.016
+    3300076: Wall.017
+    3300078: Wall.018
+    3300080: Wall.019
+    3300082: Wall.020
+    3300084: Wall.021
+    3300086: Wall.022
+    3300088: Wall.023
+    3300090: Wall.024
+    3300092: Wall.025
+    3300094: Wall.026
+    3300096: Wall.027
+    3300098: Wall.028
+    3300100: Wall.029
+    3300102: Wall.030
+    3300104: Wall.031
+    3300106: Wall.032
+    3300108: Wall.033
+    3300110: Wall.034
+    3300112: Wall.035
+    4300000: VentShaft.016
+    4300002: VentShaft.015
+    4300004: VentShaft.014
+    4300006: VentShaft.012
+    4300008: VentShaft.011
+    4300010: VentShaft.010
+    4300012: VentShaft.009
+    4300014: VentShaft.008
+    4300016: VentShaft.007
+    4300018: VentShaft.006
+    4300020: VentShaft.005
+    4300022: VentShaft.004
+    4300024: VentShaft.003
+    4300026: VentShaft.002
+    4300028: VentShaft.001
+    4300030: Building Walls
+    4300032: VentShaft.013
+    4300034: Cube
+    4300036: VentShaft
+    4300038: Roof Acess
+    4300040: Wall.035
+    4300042: Wall.034
+    4300044: Wall.033
+    4300046: Wall.032
+    4300048: Wall.031
+    4300050: Wall.030
+    4300052: Wall.029
+    4300054: Wall.028
+    4300056: Wall.027
+    4300058: Wall.026
+    4300060: Wall.025
+    4300062: Wall.024
+    4300064: Wall.023
+    4300066: Wall.022
+    4300068: Wall.021
+    4300070: Wall.020
+    4300072: Wall.019
+    4300074: Wall.018
+    4300076: Wall.017
+    4300078: Wall.016
+    4300080: Wall.015
+    4300082: Wall.014
+    4300084: Wall.013
+    4300086: Wall.012
+    4300088: Wall.011
+    4300090: Wall.010
+    4300092: Wall.009
+    4300094: Wall.008
+    4300096: Wall.007
+    4300098: Wall.006
+    4300100: Wall.005
+    4300102: Wall.004
+    4300104: Wall.003
+    4300106: Wall.002
+    4300108: Wall.001
+    4300110: Roof Floor
+    4300112: Helio_Lod0-Mesh
+    6400000: Building Walls
+    6400002: Cube
+    6400004: Helio_Lod0-Mesh
+    6400006: Roof Acess
+    6400008: Roof Floor
+    6400010: VentShaft
+    6400012: VentShaft.001
+    6400014: VentShaft.002
+    6400016: VentShaft.003
+    6400018: VentShaft.004
+    6400020: VentShaft.005
+    6400022: VentShaft.006
+    6400024: VentShaft.007
+    6400026: VentShaft.008
+    6400028: VentShaft.009
+    6400030: VentShaft.010
+    6400032: VentShaft.011
+    6400034: VentShaft.012
+    6400036: VentShaft.013
+    6400038: VentShaft.014
+    6400040: VentShaft.015
+    6400042: VentShaft.016
+    6400044: Wall.001
+    6400046: Wall.002
+    6400048: Wall.003
+    6400050: Wall.004
+    6400052: Wall.005
+    6400054: Wall.006
+    6400056: Wall.007
+    6400058: Wall.008
+    6400060: Wall.009
+    6400062: Wall.010
+    6400064: Wall.011
+    6400066: Wall.012
+    6400068: Wall.013
+    6400070: Wall.014
+    6400072: Wall.015
+    6400074: Wall.016
+    6400076: Wall.017
+    6400078: Wall.018
+    6400080: Wall.019
+    6400082: Wall.020
+    6400084: Wall.021
+    6400086: Wall.022
+    6400088: Wall.023
+    6400090: Wall.024
+    6400092: Wall.025
+    6400094: Wall.026
+    6400096: Wall.027
+    6400098: Wall.028
+    6400100: Wall.029
+    6400102: Wall.030
+    6400104: Wall.031
+    6400106: Wall.032
+    6400108: Wall.033
+    6400110: Wall.034
+    6400112: Wall.035
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Boots
+    second: {fileID: 2100000, guid: 805ed1fda869f3d45bfee6eca35273a1, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Coat
+    second: {fileID: 2100000, guid: 2e5cf7fd264f2b34b980a0fa6c2fb638, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Eyebrows
+    second: {fileID: 2100000, guid: a26a17893dd0e5444983b4915dfa4da5, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Face
+    second: {fileID: 2100000, guid: 55e6b572672fbc34197ae05fe6d2c182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair.A
+    second: {fileID: 2100000, guid: c2a2b4decf929ec43b2b51461bab30c6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hair.B
+    second: {fileID: 2100000, guid: 64d3701057421ee4faa5d98ade95996a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Hands
+    second: {fileID: 2100000, guid: 55e6b572672fbc34197ae05fe6d2c182, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Holster
+    second: {fileID: 2100000, guid: 8450a993a2117014fafafbb1d64422ea, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Lompas
+    second: {fileID: 2100000, guid: 7cd6eb4ab3ca4de4bbd9902c60e98a99, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: No Name
+    second: {fileID: 2100000, guid: 5a6e40fb223eab240a091fab707b13e6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Polera.001
+    second: {fileID: 2100000, guid: 17a06abc042b540449f8828242c345c6, type: 2}
+  materials:
+    importMaterials: 0
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.1
+    meshCompression: 0
+    addColliders: 1
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 1
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

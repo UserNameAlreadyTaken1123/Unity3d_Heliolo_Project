@@ -1,0 +1,28 @@
+fileFormatVersion: 2
+guid: f3e75c2e9818e8148925655a9ac87fe4
+timeCreated: 1533670765
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - defaultGUISkin: {fileID: 11400000, guid: 9f1a9462821bcc447be0c62a2a09fbe6, type: 2}
+  - crosshairTexture: {instanceID: 0}
+  - crosshairTextureHit: {instanceID: 0}
+  - lockedTargetTextureA: {instanceID: 0}
+  - lockedTargetTextureB: {instanceID: 0}
+  - Health: {instanceID: 0}
+  - EnemyHealth: {instanceID: 0}
+  - Mana: {instanceID: 0}
+  - guns: {instanceID: 0}
+  - gunsSlot2: {instanceID: 0}
+  - gunsSlot3: {instanceID: 0}
+  - gunsSlot4: {instanceID: 0}
+  - swords: {instanceID: 0}
+  - swordsSlot2: {instanceID: 0}
+  - swordsSlot3: {instanceID: 0}
+  - swordsSlot4: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

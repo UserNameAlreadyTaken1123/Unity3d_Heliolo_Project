@@ -1,0 +1,18 @@
+fileFormatVersion: 2
+guid: db366f6c07faf5d49b6e620539505fd4
+timeCreated: 1514197232
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - Level1ParticlesFX: {fileID: 1258164110214214, guid: 414ea412b5d151a46aad5d639511ebe8,
+      type: 2}
+  - Level2ParticlesFX: {fileID: 1258164110214214, guid: a930fd9f88b2b6344bc89d96ceae7478,
+      type: 2}
+  - Level3ParticlesFX: {fileID: 1258164110214214, guid: f4dd206afd05b78409db5a74cb50d6af,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

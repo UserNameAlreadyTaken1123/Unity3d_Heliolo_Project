@@ -1,0 +1,525 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1000010345774754
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000011331139548}
+  m_Layer: 9
+  m_Name: Base
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000011331139548
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010345774754}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -0.00011, y: 0.000004, z: 0.00033}
+  m_LocalScale: {x: 0.009599995, y: 0.0053333184, z: 0.003919994}
+  m_Children: []
+  m_Father: {fileID: 4000012345312006}
+  m_RootOrder: 2
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1000012027764804
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4000012345312006}
+  - component: {fileID: 65000012765474358}
+  - component: {fileID: 54318304674892526}
+  - component: {fileID: 114392961577604350}
+  - component: {fileID: 114578261677933886}
+  - component: {fileID: 114763738903122150}
+  - component: {fileID: 114563940031843094}
+  - component: {fileID: 114537831462951792}
+  - component: {fileID: 114228517489905490}
+  - component: {fileID: 114560493878780726}
+  m_Layer: 9
+  m_Name: Basic Sword
+  m_TagString: EquipedWeaponSword
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4000012345312006
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_LocalRotation: {x: -0.27909645, y: 0.00928438, z: -0.95557475, w: -0.09431784}
+  m_LocalPosition: {x: 0.000029, y: 0.000153, z: -0.000005}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 4948413620013648}
+  - {fileID: 4279465533802586}
+  - {fileID: 4000011331139548}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -184.036, y: -147.794, z: -10.107971}
+--- !u!65 &65000012765474358
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Material: {fileID: 13400000, guid: 0c844c37363fd1c478d1b2eab1ec1649, type: 2}
+  m_IsTrigger: 1
+  m_Enabled: 0
+  serializedVersion: 2
+  m_Size: {x: 0.000121, y: 0.0002, z: 0.002}
+  m_Center: {x: -0.000006104055, y: -0.000017493006, z: 0.00075}
+--- !u!54 &54318304674892526
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 0
+  m_IsKinematic: 1
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!114 &114392961577604350
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b8d8dd7607984549a7d7b8e5bce4551, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ownerIsAI: 0
+  _defaultPosition: {x: 0, y: 0, z: 0}
+  _defaultRotation: {x: 0, y: 0, z: 0, w: 0}
+  _defaultScale: {x: 0, y: 0, z: 0}
+  movementScript: {fileID: 0}
+  animationScript: {fileID: 0}
+  healthBarScript: {fileID: 0}
+  references: {fileID: 0}
+  currentAttack: {fileID: 0}
+  currentQueuedAttack: {fileID: 0}
+  tempCurrentQueuedAttack: {fileID: 0}
+  attacksInputed: []
+  attacksQueue: []
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  Player: {fileID: 0}
+  weaponName: Iron Sword
+  weaponType: 2
+  attackDamage: 17.5
+  baseDamage: 2
+  speedMultiplier: 1.35
+  swordSwing: {fileID: 8300000, guid: 5ec8a09ed2e847946afaafaf22f9bdab, type: 3}
+  swordSlash: {fileID: 8300000, guid: ea717f3b14eca364694d47f0e640f9ae, type: 3}
+  swordClash: {fileID: 8300000, guid: 9958733ca9a83d74693c4b3cefa34018, type: 3}
+  onEnableSound: {fileID: 8300000, guid: 2e7135ae6a4526d4da2d1a524a88eb5a, type: 3}
+  onEnableParticles: {fileID: 0}
+  SwordSparkColor: {r: 1, g: 1, b: 1, a: 0.2509804}
+  SwordSpark: {fileID: 1769828393376964, guid: 25cf60876e1332d49817ec86b1a4b061, type: 3}
+  GenericHit: {fileID: 1537062417876808, guid: 73d1042d805352c43809a09d5b523466, type: 3}
+  AttackBeingExecuted: 0
+  targetsSlashed: []
+  damageCol: 0
+  blocking: 0
+  swordCanCrash: 0
+  unstoppable: 0
+  deactivateAllBehavior: 0
+  boxColliderOrigSize: {x: 0, y: 0, z: 0}
+  boxColliderOrigCenter: {x: 0, y: 0, z: 0}
+  canCancel: 0
+  targetLayers:
+    serializedVersion: 2
+    m_Bits: 1280
+  cancelInAirCheck: 0
+--- !u!114 &114578261677933886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9451d4f87aa239f48990186ce8422060, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 0
+  overthrows: 1
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  attackLevel: 1
+  launcherATarget: {fileID: 0}
+  landedLauncherA: 0
+  Level1ParticlesFX: {fileID: 0}
+  breakConditionsMet: 0
+--- !u!114 &114763738903122150
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c28c9eda1f11e4b4f85178a43086f8aa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 0
+  overthrows: 0
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  ComboLevel: 5
+  ActivateTimerToReset: 0
+  currentComboTimer: 0.1
+  ComboAIndex: 0
+  Level1ParticlesFX: {fileID: 1765946627563924, guid: ef5a4609f422a0b46af6a3849eed0c9b,
+    type: 3}
+  Level2ParticlesFX: {fileID: 0}
+  Level3ParticlesFX: {fileID: 0}
+--- !u!114 &114563940031843094
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a3e790c2b31e9284e85643b95bc74237, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 0
+  overthrows: 0
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  attackLevel: 1
+  level1ManaRequirement: 5
+  level2ManaRequirement: 7.5
+  level3ManaRequirement: 10
+  ParticlesFX: {fileID: 1765946627563924, guid: ef5a4609f422a0b46af6a3849eed0c9b,
+    type: 3}
+  ActivateTimerToReset: 0
+  timeToRelease: 1
+--- !u!114 &114537831462951792
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ae19ff17a513f9b418351b21dab837c8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 1
+  overthrows: 0
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  attackLevel: 1
+  level1ManaRequirement: 7.5
+  level2ManaRequirement: 10
+  level3ManaRequirement: 12.5
+  ActivateTimerToReset: 0
+  currentComboTimer: 0
+  currentComboState: 0
+  Level1ParticlesFX: {fileID: 1618330203473628, guid: 969d9538fc870454e9964aee1e7ef26b,
+    type: 3}
+  Level2ParticlesFX: {fileID: 1618330203473628, guid: bbfd3cfb1adc5674fbbd357141dd00ad,
+    type: 3}
+  Level3ParticlesFX: {fileID: 1618330203473628, guid: d3376272762221f4fb7660ff5979acbb,
+    type: 3}
+--- !u!114 &114228517489905490
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cc629da1279f1754eb6d784b0bb4649a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 0
+  overthrows: 0
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  attackLevel: 3
+  level1FocusRequirement: 3
+  level2FocusRequirement: 2
+  level3FocusRequirement: 1
+  blockingDirection: {x: 0, y: 0, z: 0}
+  blockingImpact: 0
+  Level1ParticlesFX: {fileID: 0}
+  Level2ParticlesFX: {fileID: 0}
+  Level3ParticlesFX: {fileID: 0}
+--- !u!114 &114560493878780726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012027764804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e6612c728c4392846bb1703c18e50fdc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  swordCPU: {fileID: 0}
+  movementScript: {fileID: 0}
+  playerAnimation: {fileID: 0}
+  playerHealthBarScript: {fileID: 0}
+  manaBarScript: {fileID: 0}
+  animator: {fileID: 0}
+  rigidbody: {fileID: 0}
+  boxCollider: {fileID: 0}
+  meleeWeaponTrail: {fileID: 0}
+  meleeWeaponTrailDistortion: {fileID: 0}
+  priority: 0
+  animationTimer: 0
+  SpeedMultiplier: 0
+  particlesRunning: {fileID: 0}
+  Player: {fileID: 0}
+  cooldown: 0
+  stunTime: 0.25
+  unstoppable: 0
+  overthrows: 0
+  startSound: {fileID: 0}
+  hitSound: {fileID: 0}
+  resetOnLanding: 1
+  attackLevel: 1
+  level1ManaRequirement: 4
+  level2ManaRequirement: 6.5
+  level3ManaRequirement: 8.5
+  ActivateTimerToReset: 0
+  currentComboTimer: 0
+  currentComboState: 0
+  Level1ParticlesFX: {fileID: 0}
+  Level2ParticlesFX: {fileID: 0}
+  Level3ParticlesFX: {fileID: 0}
+  ParticleFX: {fileID: 1765946627563924, guid: ef5a4609f422a0b46af6a3849eed0c9b, type: 3}
+--- !u!1 &1341334984080164
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4279465533802586}
+  m_Layer: 9
+  m_Name: Tip
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4279465533802586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1341334984080164}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.000007, y: -0.000029, z: 0.001674}
+  m_LocalScale: {x: 0.009608499, y: 0.0053367913, z: 0.0039334167}
+  m_Children: []
+  m_Father: {fileID: 4000012345312006}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1580581811937278
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4948413620013648}
+  - component: {fileID: 33830795802644362}
+  - component: {fileID: 23670266905857736}
+  m_Layer: 9
+  m_Name: Mesh
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4948413620013648
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580581811937278}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 0.10000005, y: 0.30000082, z: 0.25000045}
+  m_Children: []
+  m_Father: {fileID: 4000012345312006}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!33 &33830795802644362
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580581811937278}
+  m_Mesh: {fileID: 4300000, guid: b972da2a5da6a964c876d5f8d8763851, type: 3}
+--- !u!23 &23670266905857736
+MeshRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1580581811937278}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_DynamicOccludee: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 2
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 2100000, guid: 2d33d787dd4c2474ca14e1b806eee14c, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0

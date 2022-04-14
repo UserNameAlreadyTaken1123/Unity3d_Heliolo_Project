@@ -1,0 +1,33 @@
+fileFormatVersion: 2
+guid: 0ecc09acda07c2c4c97c455a44e27177
+timeCreated: 1517878351
+licenseType: Free
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - swordCPU: {instanceID: 0}
+  - movementScript: {instanceID: 0}
+  - playerAnimation: {instanceID: 0}
+  - playerHealthBarScript: {instanceID: 0}
+  - manaBarScript: {instanceID: 0}
+  - animator: {instanceID: 0}
+  - rigidbody: {instanceID: 0}
+  - boxCollider: {instanceID: 0}
+  - meleeWeaponTrail: {instanceID: 0}
+  - meleeWeaponTrailDistortion: {instanceID: 0}
+  - particlesRunning: {instanceID: 0}
+  - Player: {instanceID: 0}
+  - startSound: {instanceID: 0}
+  - hitSound: {fileID: 8300000, guid: 184be22dfe3243f45ba510939b8bcddb, type: 3}
+  - Level1ParticlesFX: {fileID: 1454947464884246, guid: 72833acc970d6d84da2b459b2b223063,
+      type: 2}
+  - Level2ParticlesFX: {fileID: 1454947464884246, guid: e33f59819aa316e49b7b64efa2e872d9,
+      type: 2}
+  - Level3ParticlesFX: {fileID: 1705734352594430, guid: 8f9d500c370bd064e98d70168d2d04a5,
+      type: 2}
+  - launcherATarget: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,158 @@
+fileFormatVersion: 2
+guid: bb44f605bab03c744953fcb7de872f92
+timeCreated: 1531804258
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box003
+    100002: Box004
+    100004: Cylinder001
+    100006: Kinh hau
+    100008: Lighting
+    100010: lighting_nhan hau
+    100012: //RootNode
+    100014: Nha truoc
+    100016: Object002
+    100018: Object003
+    100020: Object005
+    100022: Object006
+    100024: Object007
+    100026: Yen
+    400000: Box003
+    400002: Box004
+    400004: Cylinder001
+    400006: Kinh hau
+    400008: Lighting
+    400010: lighting_nhan hau
+    400012: //RootNode
+    400014: Nha truoc
+    400016: Object002
+    400018: Object003
+    400020: Object005
+    400022: Object006
+    400024: Object007
+    400026: Yen
+    2300000: Box003
+    2300002: Box004
+    2300004: Cylinder001
+    2300006: Kinh hau
+    2300008: Lighting
+    2300010: lighting_nhan hau
+    2300012: Nha truoc
+    2300014: Object002
+    2300016: Object003
+    2300018: Object005
+    2300020: Object006
+    2300022: Object007
+    2300024: Yen
+    3300000: Box003
+    3300002: Box004
+    3300004: Cylinder001
+    3300006: Kinh hau
+    3300008: Lighting
+    3300010: lighting_nhan hau
+    3300012: Nha truoc
+    3300014: Object002
+    3300016: Object003
+    3300018: Object005
+    3300020: Object006
+    3300022: Object007
+    3300024: Yen
+    4300000: Box003
+    4300002: lighting_nhan hau
+    4300004: Yen
+    4300006: Box004
+    4300008: Lighting
+    4300010: Kinh hau
+    4300012: Nha truoc
+    4300014: Object007
+    4300016: Cylinder001
+    4300018: Object006
+    4300020: Object003
+    4300022: Object005
+    4300024: Object002
+    6400000: Box003
+    6400002: Box004
+    6400004: Cylinder001
+    6400006: Kinh hau
+    6400008: Lighting
+    6400010: lighting_nhan hau
+    6400012: Nha truoc
+    6400014: Object002
+    6400016: Object003
+    6400018: Object005
+    6400020: Object006
+    6400022: Object007
+    6400024: Yen
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 0.01
+    meshCompression: 0
+    addColliders: 1
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

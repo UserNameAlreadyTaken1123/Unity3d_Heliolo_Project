@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Loading Scene/StartupLoadingScreen.unity
+    guid: ebe7438d75062224d8150540cfa85478
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/New Main Menu/NewMainMenuGeneric.unity
+    guid: 00452f981cc697847baad1f55419e424
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Gallery/Gallery.unity
+    guid: 55be4172e4990d54fb54082b8d5b0de9
+  - enabled: 1
+    path: Assets/Scenes/MenuScenes/Loading Scene/LoadingScene.unity
+    guid: 4dc2472102e36db4fbee3d9645b15d50
+  - enabled: 1
+    path: Assets/Scenes/CampoVerde/CampoVerde.unity
+    guid: a5f361482c3be5740adcb6b29f9c04fd
+  - enabled: 1
+    path: Assets/Scenes/TreasureChestTemple/TreasureChestTemple.unity
+    guid: 5a6f6041bfe4ee84fb3b949c12bfbbf1
+  - enabled: 1
+    path: Assets/Scenes/ProtoJungle/ProtoJungle.unity
+    guid: 600a7d6d6517195468d564c546d845f2
+  - enabled: 1
+    path: Assets/Scenes/iceworld/iceworld.unity
+    guid: 0b1c8305ede231c48a0c69e2d644063d
+  - enabled: 1
+    path: Assets/Scenes/Tutoro/Tutoro.unity
+    guid: 56174b5dacfe5ad4182c1ce3a5263fc5
+  - enabled: 1
+    path: Assets/Scenes/Tutoro/Tutoro2.unity
+    guid: 9b680c57076ee2640891dbf7ce35654e
+  - enabled: 1
+    path: Assets/Scenes/Tutorial New/New Tutorial.unity
+    guid: 022c90b484df6e342baacc58de0d904e
+  - enabled: 1
+    path: Assets/Scenes/Arena/Arena.unity
+    guid: f6cf378b7e8ba20499e7e3a39f7a0d9e
+  - enabled: 1
+    path: Assets/Scenes/Rooftop/Rooftop.unity
+    guid: 740baf7263f393e4292bdd62fe05e405
+  - enabled: 1
+    path: Assets/Scenes/BossBattle.unity
+    guid: 7d4edfd361e645f4188013f008930ef1
+  - enabled: 1
+    path: Assets/Scenes/Chaina.unity
+    guid: 651e88a714ed1a74e8c7f9c4018ef15d
+  - enabled: 1
+    path: Assets/Scenes/Base espacial/SpaceBase.unity
+    guid: 5d2e117e3a21dcd47b546ca239476c6b
+  - enabled: 1
+    path: Assets/Scenes/Death Battle/DeathBattle.unity
+    guid: 2945e6da0a80ae54d8f63a1a45254bdf
+  - enabled: 1
+    path: Assets/Scenes/Death Battle/DeathBattleHardcore.unity
+    guid: f4edc7c7eae2f41408a89832d9631099
+  - enabled: 1
+    path: Assets/Scenes/War/War.unity
+    guid: 969923d3bb24aeb45b10dc9f0cce9761
+  - enabled: 1
+    path: Assets/Scenes/Modular Scene/ModularScene.unity
+    guid: 2eed347291c2e314182b516c1f4a3d7b
+  - enabled: 1
+    path: Assets/Scenes/City Invasion.unity
+    guid: ab233a37f1952c04f960503d36d2bff7
+  m_configObjects: {}
